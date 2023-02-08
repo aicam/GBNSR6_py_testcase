@@ -1,0 +1,105 @@
+-I: Adding /home/ali/Amber/amber22/dat/leap/prep to search path.
+-I: Adding /home/ali/Amber/amber22/dat/leap/lib to search path.
+-I: Adding /home/ali/Amber/amber22/dat/leap/parm to search path.
+-I: Adding /home/ali/Amber/amber22/dat/leap/cmd to search path.
+-f: Source leap.in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./leap.in
+----- Source: /home/ali/Amber/amber22/dat/leap/cmd/oldff/leaprc.ff99SB
+----- Source of /home/ali/Amber/amber22/dat/leap/cmd/oldff/leaprc.ff99SB done
+Log file: ./leap.log
+Loading parameters: /home/ali/Amber/amber22/dat/leap/parm/parm99.dat
+Reading title:
+PARM99 for DNA,RNA,AA, organic molecules, Polariz.& LP incl.02/04/99
+Loading parameters: /home/ali/Amber/amber22/dat/leap/parm/frcmod.ff99SB
+Reading force field modification type file (frcmod)
+Reading title:
+Modification/update of parm99.dat (Hornak & Simmerling)
+Loading library: /home/ali/Amber/amber22/dat/leap/lib/all_nucleic94.lib
+Loading library: /home/ali/Amber/amber22/dat/leap/lib/all_amino94.lib
+Loading library: /home/ali/Amber/amber22/dat/leap/lib/all_aminoct94.lib
+Loading library: /home/ali/Amber/amber22/dat/leap/lib/all_aminont94.lib
+Loading library: /home/ali/Amber/amber22/dat/leap/lib/ions94.lib
+Loading library: /home/ali/Amber/amber22/dat/leap/lib/solvents.lib
+Using H(N)-modified Bondi radii
+----- Source: /home/ali/Amber/amber22/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /home/ali/Amber/amber22/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /home/ali/Amber/amber22/dat/leap/lib/atomic_ions.lib
+Loading library: /home/ali/Amber/amber22/dat/leap/lib/solvents.lib
+Loading parameters: /home/ali/Amber/amber22/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /home/ali/Amber/amber22/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /home/ali/Amber/amber22/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/ali/Amber/amber22/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading PDB file: ./complex.pdb
+  total atoms in file: 3862
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 768 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CHIP	1
+	CLEU	1
+	NASN	1
+	NMET	1
+  )
+ (no restraints)
+  Solute vdw bounding box:              50.851 46.823 64.351
+  Total bounding box for atom centers:  74.851 70.823 88.351
+  Solvent unit box:                     18.774 18.774 18.774
+  Total vdw box size:                   77.725 73.396 91.277 angstroms.
+  Volume: 520705.399 A^3 
+  Total mass 257731.090 amu,  Density 0.822 g/cc
+  Added 12777 residues.
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 768 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CHIP	1
+	CLEU	1
+	NASN	1
+	NMET	1
+	WAT	12777
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.

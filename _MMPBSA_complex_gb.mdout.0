@@ -1,0 +1,42 @@
+Reading parm file (com.prmtop)
+title:
+default_name                                                                    
+	mm_options:  e_debug=2
+	mm_options:  gb=1
+	mm_options:  rgbmax=25.000000
+	mm_options:  gbsa=0
+	mm_options:  surften=0.007200
+	mm_options:  cut=999.000000
+	mm_options:  epsext=78.300000
+	mm_options:  kappa=0.103952
+Processing ASCII trajectory (_MMPBSA_complex.mdcrd.0)
+
+Processing frame 1
+      iter    Total       bad      vdW     elect   nonpolar   genBorn      frms
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2675) enb14 -->   882.348
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2676) eel14 -->  8554.627
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2734) enb --> -1879.667
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2735) eel --> -17126.830
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2736) e_gb --> -3396.939
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2737) esurf -->     0.000
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2738) evdwnp -->     0.000
+ff:     0  -7655.75   5310.72   -997.32  -8572.20      0.00  -3396.94  1.82e+01
+ BOND    =      760.8305  ANGLE   =     2055.2671  DIHED      =     2494.6181
+ VDWAALS =    -1879.6671  EEL     =   -17126.8305  EGB        =    -3396.9385
+ 1-4 VDW =      882.3484  1-4 EEL =     8554.6269  RESTRAINT  =        0.0000
+ ESURF   =        0.0000
+
+Processing frame 2
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2675) enb14 -->   859.265
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2676) eel14 -->  8616.648
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2734) enb --> -1851.163
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2735) eel --> -17186.053
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2736) e_gb --> -3427.377
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2737) esurf -->     0.000
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2738) evdwnp -->     0.000
+ BOND    =      727.9427  ANGLE   =     1955.2664  DIHED      =     2531.0736
+ VDWAALS =    -1851.1627  EEL     =   -17186.0532  EGB        =    -3427.3772
+ 1-4 VDW =      859.2650  1-4 EEL =     8616.6479  RESTRAINT  =        0.0000
+ ESURF   =        0.0000
+
+MM/GBSA processing done!

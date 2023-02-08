@@ -1,0 +1,56 @@
+Reading parm file (com.prmtop)
+title:
+default_name                                                                    
+	mm_options:  e_debug=3
+	mm_options:  ipb=2
+	mm_options:  inp=2
+	mm_options:  epsin=1.000000
+	mm_options:  epsout=80.000000
+	mm_options:  smoothopt=1
+	mm_options:  istrng=100.000000
+	mm_options:  radiopt=1
+	mm_options:  dprob=1.400000
+	mm_options:  iprob=2.000000
+	mm_options:  npbopt=0
+	mm_options:  solvopt=1
+	mm_options:  accept=0.001000
+	mm_options:  maxitn=1000
+	mm_options:  fillratio=4.000000
+	mm_options:  space=0.500000
+	mm_options:  nfocus=2
+	mm_options:  fscale=8
+	mm_options:  bcopt=5
+	mm_options:  eneopt=2
+	mm_options:  cutnb=0.000000
+	mm_options:  sprob=0.557000
+	mm_options:  cavity_surften=0.037800
+	mm_options:  cavity_offset=-0.569200
+Processing ASCII trajectory (_MMPBSA_complex.mdcrd.0)
+
+Processing frame 1
+      iter    Total       bad      vdW     elect   nonpolar       EPB      frms
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2675) enb14 -->   882.348
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2676) eel14 -->  8554.627
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2791) enb --> -1879.667
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2792) eel --> -17126.830
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2793) e_pb --> -3057.626
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2794) esurf -->  1950.364
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2795) evdwnp --> -1149.973
+ff:     0  -6516.04   5310.72   -997.32  -8572.20    800.39  -3057.63  1.84e+01
+ BOND    =      760.8305  ANGLE   =     2055.2671  DIHED      =     2494.6181
+ VDWAALS =    -1879.6671  EEL     =   -17126.8305  EPB        =    -3057.6264
+ 1-4 VDW =      882.3484  1-4 EEL =     8554.6269  RESTRAINT  =        0.0000
+ ECAVITY =     1950.3644  EDISPER =    -1149.9734
+Processing frame 2
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2675) enb14 -->   859.265
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2676) eel14 -->  8616.648
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2791) enb --> -1851.163
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2792) eel --> -17186.053
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2793) e_pb --> -3126.251
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2794) esurf -->  1943.357
+/data/neginf/amber22_src/AmberTools/src/sff/eff.c(2795) evdwnp --> -1149.434
+ BOND    =      727.9427  ANGLE   =     1955.2664  DIHED      =     2531.0736
+ VDWAALS =    -1851.1627  EEL     =   -17186.0532  EPB        =    -3126.2512
+ 1-4 VDW =      859.2650  1-4 EEL =     8616.6479  RESTRAINT  =        0.0000
+ ECAVITY =     1943.3572  EDISPER =    -1149.4337
+MM/PBSA processing done!
